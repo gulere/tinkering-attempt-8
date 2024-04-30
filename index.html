@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecerandompassgenerator</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+        <div class="generator">
+
+            <h1>✨Magical Password Conjurer✨</h1>
+            <h2>Craft magical and enchanting passwords to safeguard your online kingdom!🪄</h2>
+            <label class="password-wrap">
+                <input 
+                type="text" 
+                id="password" 
+                readonly 
+                placeholder="conjure a spell"
+                />
+                <button class="material-icons" id="copy">content_copy</button>
+            </label>
+
+            <label>
+                <span>🔸password length:</span>
+                <input type="number" id="length" value="16" /> 
+            </label>
+
+            <label>
+                <span>🔹include uppercase letters:</span>
+                <input type="checkbox" id="uppercase" checked /> 
+            </label>
+
+            <label>
+                <span>🔸include lowercase letters:</span>
+                <input type="checkbox" id="lowercase" checked /> 
+            </label>
+
+            <label>
+                <span>🔹include numbers:</span>
+                <input type="checkbox" id="numbers" checked /> 
+            </label>
+
+            <label>
+                <span>🔸include symbols:</span>
+                <input type="checkbox" id="symbols" checked /> 
+            </label>
+
+            <button type="submit" id="generate">conjure spell</button>
+
+        </div>
+
+    </main>
+ 
+    <script src="index.js"></script>
+</body>
+</html>

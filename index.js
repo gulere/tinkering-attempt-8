@@ -40,6 +40,6 @@ async function CopyPassword(){
 	if (navigator.clipboard){
 		await navigator.clipboard.writeText(passwordElement.value);
 
-		window.alert("📌your password was copied to the clipboard📌");
+		window.alert("🧝Quest complete! Your spell has been woven to your mystical inventory!🪄");
 	}
 }
